@@ -1,24 +1,32 @@
 //
 //  ViewController.swift
-//  OXXKnowPlayer
+//  know-player
 //
-//  Created by 980689003@qq.com on 09/18/2021.
-//  Copyright (c) 2021 980689003@qq.com. All rights reserved.
+//  Created by user on 2021/9/16.
 //
 
 import UIKit
+import OXXKnowPlayer
 
 class ViewController: UIViewController {
 
+    var player: OXXPlayerViewController?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // Do any additional setup after loading the view.
+        
+        self.view.backgroundColor = UIColor.red
+        
+        player = OXXPlayerViewController()
+        player?.view.frame = CGRect(x: 40, y: 40, width: 200, height: 100)
+        if let p = player {
+            view.addSubview(p.view)
+        }
+        
+        let url: String = "http://vjs.zencdn.net/v/oceans.mp4"
+        player?.play(url)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    
 }
 
