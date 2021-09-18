@@ -22,7 +22,7 @@ pod 'OXXKnowPlayer'
 
 ## Author
 
-980689003@qq.com, 508131409@qq.com
+oxxther
 
 ## License
 
