@@ -17,5 +17,7 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "OXXKnowPlayer/Classes/**/*"
+  "source_files": "OXXKnowPlayer/Classes/**/*",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }
