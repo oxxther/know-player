@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,11 +12,11 @@
 		CEE2D40426F31F6400374676 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2D40326F31F6400374676 /* ViewController.swift */; };
 		CEE2D40926F31F6700374676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE2D40826F31F6700374676 /* Assets.xcassets */; };
 		CEE2D40C26F31F6700374676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE2D40A26F31F6700374676 /* LaunchScreen.storyboard */; };
-		CEE2D41626F3279900374676 /* OXXPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2D41526F3279900374676 /* OXXPlayerViewController.swift */; };
-		CEE2D41D26F462DF00374676 /* OXXPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2D41C26F462DF00374676 /* OXXPlayerView.swift */; };
-		CEE2D41F26F47E2400374676 /* OXXTopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2D41E26F47E2400374676 /* OXXTopBarView.swift */; };
-		CEE2D42126F47E8F00374676 /* OXXBottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2D42026F47E8F00374676 /* OXXBottomBarView.swift */; };
-		CEE2D42326F47EC600374676 /* OXXLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2D42226F47EC600374676 /* OXXLoadingView.swift */; };
+		CEE2D43D26F58FC000374676 /* OXXLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2D43826F58FC000374676 /* OXXLoadingView.swift */; };
+		CEE2D43E26F58FC000374676 /* OXXPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2D43926F58FC000374676 /* OXXPlayerView.swift */; };
+		CEE2D43F26F58FC000374676 /* OXXBottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2D43A26F58FC000374676 /* OXXBottomBarView.swift */; };
+		CEE2D44026F58FC000374676 /* OXXTopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2D43B26F58FC000374676 /* OXXTopBarView.swift */; };
+		CEE2D44126F58FC000374676 /* OXXPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2D43C26F58FC000374676 /* OXXPlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,11 +27,11 @@
 		CEE2D40826F31F6700374676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE2D40B26F31F6700374676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE2D40D26F31F6700374676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEE2D41526F3279900374676 /* OXXPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OXXPlayerViewController.swift; sourceTree = "<group>"; };
-		CEE2D41C26F462DF00374676 /* OXXPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OXXPlayerView.swift; sourceTree = "<group>"; };
-		CEE2D41E26F47E2400374676 /* OXXTopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OXXTopBarView.swift; sourceTree = "<group>"; };
-		CEE2D42026F47E8F00374676 /* OXXBottomBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OXXBottomBarView.swift; sourceTree = "<group>"; };
-		CEE2D42226F47EC600374676 /* OXXLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OXXLoadingView.swift; sourceTree = "<group>"; };
+		CEE2D43826F58FC000374676 /* OXXLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OXXLoadingView.swift; sourceTree = "<group>"; };
+		CEE2D43926F58FC000374676 /* OXXPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OXXPlayerView.swift; sourceTree = "<group>"; };
+		CEE2D43A26F58FC000374676 /* OXXBottomBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OXXBottomBarView.swift; sourceTree = "<group>"; };
+		CEE2D43B26F58FC000374676 /* OXXTopBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OXXTopBarView.swift; sourceTree = "<group>"; };
+		CEE2D43C26F58FC000374676 /* OXXPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OXXPlayerViewController.swift; sourceTree = "<group>"; };
 		DBCAE9D6B3C08085D0C55D15 /* Pods-know-player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-know-player.debug.xcconfig"; path = "Target Support Files/Pods-know-player/Pods-know-player.debug.xcconfig"; sourceTree = "<group>"; };
 		EEED09284E4A4ED087F9747D /* Pods-know-player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-know-player.release.xcconfig"; path = "Target Support Files/Pods-know-player/Pods-know-player.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,7 +54,6 @@
 				DBCAE9D6B3C08085D0C55D15 /* Pods-know-player.debug.xcconfig */,
 				EEED09284E4A4ED087F9747D /* Pods-know-player.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -79,7 +78,7 @@
 		CEE2D3FE26F31F6400374676 /* know-player */ = {
 			isa = PBXGroup;
 			children = (
-				CEE2D41426F3245100374676 /* OXXPlayer */,
+				CEE2D43626F58FC000374676 /* OXXKnowPlayer */,
 				CEE2D3FF26F31F6400374676 /* AppDelegate.swift */,
 				CEE2D40326F31F6400374676 /* ViewController.swift */,
 				CEE2D40826F31F6700374676 /* Assets.xcassets */,
@@ -89,22 +88,23 @@
 			path = "know-player";
 			sourceTree = "<group>";
 		};
-		CEE2D41426F3245100374676 /* OXXPlayer */ = {
+		CEE2D43626F58FC000374676 /* OXXKnowPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				CEE2D41726F3380400374676 /* View */,
-				CEE2D41526F3279900374676 /* OXXPlayerViewController.swift */,
+				CEE2D43726F58FC000374676 /* View */,
+				CEE2D43C26F58FC000374676 /* OXXPlayerViewController.swift */,
 			);
-			path = OXXPlayer;
+			name = OXXKnowPlayer;
+			path = ../../OXXKnowPlayer;
 			sourceTree = "<group>";
 		};
-		CEE2D41726F3380400374676 /* View */ = {
+		CEE2D43726F58FC000374676 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CEE2D41C26F462DF00374676 /* OXXPlayerView.swift */,
-				CEE2D41E26F47E2400374676 /* OXXTopBarView.swift */,
-				CEE2D42026F47E8F00374676 /* OXXBottomBarView.swift */,
-				CEE2D42226F47EC600374676 /* OXXLoadingView.swift */,
+				CEE2D43826F58FC000374676 /* OXXLoadingView.swift */,
+				CEE2D43926F58FC000374676 /* OXXPlayerView.swift */,
+				CEE2D43A26F58FC000374676 /* OXXBottomBarView.swift */,
+				CEE2D43B26F58FC000374676 /* OXXTopBarView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -232,12 +232,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEE2D41626F3279900374676 /* OXXPlayerViewController.swift in Sources */,
-				CEE2D42326F47EC600374676 /* OXXLoadingView.swift in Sources */,
-				CEE2D42126F47E8F00374676 /* OXXBottomBarView.swift in Sources */,
-				CEE2D41D26F462DF00374676 /* OXXPlayerView.swift in Sources */,
+				CEE2D43D26F58FC000374676 /* OXXLoadingView.swift in Sources */,
+				CEE2D44126F58FC000374676 /* OXXPlayerViewController.swift in Sources */,
+				CEE2D43E26F58FC000374676 /* OXXPlayerView.swift in Sources */,
+				CEE2D44026F58FC000374676 /* OXXTopBarView.swift in Sources */,
 				CEE2D40426F31F6400374676 /* ViewController.swift in Sources */,
-				CEE2D41F26F47E2400374676 /* OXXTopBarView.swift in Sources */,
+				CEE2D43F26F58FC000374676 /* OXXBottomBarView.swift in Sources */,
 				CEE2D40026F31F6400374676 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
