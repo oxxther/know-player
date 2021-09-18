@@ -1,0 +1,7 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'OXXKnowPlayer_Example' do
+  pod 'OXXKnowPlayer', :path => '../'
+end

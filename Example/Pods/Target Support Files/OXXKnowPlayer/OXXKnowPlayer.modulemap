@@ -1,0 +1,6 @@
+framework module OXXKnowPlayer {
+  umbrella header "OXXKnowPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

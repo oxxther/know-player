@@ -1,0 +1,16 @@
+PODS:
+  - OXXKnowPlayer (0.1.0)
+
+DEPENDENCIES:
+  - OXXKnowPlayer (from `../`)
+
+EXTERNAL SOURCES:
+  OXXKnowPlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OXXKnowPlayer: f28a4548757c7c650901244745a8d85bffb71f70
+
+PODFILE CHECKSUM: 9bbf23eacbcd0d65c2b62f845eacf50c97ccc1d4
+
+COCOAPODS: 1.11.2
