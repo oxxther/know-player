@@ -13,14 +13,14 @@ class OXXPlayerViewController: UIViewController {
     
     //MARK: properties
     fileprivate var player : AVPlayer = AVPlayer()
-    fileprivate var playerView : OXXPlayerView = OXXPlayerView()
+//    fileprivate var playerView : OXXPlayerView = OXXPlayerView()
     
     //MARK: life cycle
-    override func loadView() {
-        super.loadView()
-        playerView.frame = view.frame
-        view = playerView
-    }
+//    override func loadView() {
+//        super.loadView()
+//        playerView.frame = view.frame
+//        view = playerView
+//    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,18 +32,18 @@ class OXXPlayerViewController: UIViewController {
 
 }
 
-//MARK: public
-extension OXXPlayerViewController {
-    func play(_ url: String) {
-        guard let _url = URL(string: url) else {
-            return
-        }
-        let item = AVPlayerItem(url: _url)
-        player.replaceCurrentItem(with: item)
-        let playerLayer = AVPlayerLayer(player: player)
-        playerLayer.frame = playerView.bounds
-        playerView.layer.insertSublayer(playerLayer, at: 0)
-        player.play()
-    }
-}
+////MARK: public
+//extension OXXPlayerViewController {
+//    func play(_ url: String) {
+//        guard let _url = URL(string: url) else {
+//            return
+//        }
+//        let item = AVPlayerItem(url: _url)
+//        player.replaceCurrentItem(with: item)
+//        let playerLayer = AVPlayerLayer(player: player)
+//        playerLayer.frame = playerView.bounds
+//        playerView.layer.insertSublayer(playerLayer, at: 0)
+//        player.play()
+//    }
+//}
 
