@@ -1,5 +1,5 @@
 PODS:
-  - OXXKnowPlayer (0.1.0):
+  - OXXKnowPlayer (0.1.1):
     - SnapKit (~> 4.2.0)
   - SnapKit (4.2.0)
 
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  OXXKnowPlayer: 7376ba2ac84277731a7504f45fee033b2950b08c
+  OXXKnowPlayer: d728bb90ef066a92ea2da296a7b32686b7398849
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
 PODFILE CHECKSUM: 59e2b88f4a4cb5ab633e83df6c5020d24b6366c7

@@ -24,10 +24,7 @@ public class OXXPlayerViewController: UIViewController {
     
     public override func viewDidLoad() {
         super.viewDidLoad()
-        
         self.view.backgroundColor = UIColor.green
-        
-        
     }
 
 }

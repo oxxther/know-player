@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name                    = 'OXXKnowPlayer'
-  s.version                 = '0.1.0'
+  s.version                 = '0.1.1'
   s.summary                 = 'The AVFoundation of OXXKnowPlayer.'
   s.homepage                = 'https://github.com/oxxther/know-player'
   s.license                 = { :type => 'MIT', :file => 'LICENSE' }
